@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-16">
+        <title>"Personas UI/UX"</title>
+
+        <link href="./maincss.css" rel="stylesheet" type = "text/css">
+        <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+
+    <body>
+        <ul id = 'menuBar'>
+            <li><a class = 'buttons' href="">Overview</a></li>
+            <li><a class = 'buttons' href="#glass2">Preparation</a></li>
+            <li><a class = 'buttons' href="#glass3">Observation: recording</a></li>
+            <li><a class = 'buttons' href="#glass4">Personas</a></li>
+            <li><a class = 'buttons' href = "#glass5">Storyboards</a></li>
+        </ul>
+    </body>
+
+    <body>
+        <main>
+
+            <section class = "glass" id = "glass0">
+                
+            </section>
+
+            <section class="glass" id = "glass1">
+
+                
+
+                <div id = "overviewtextBox">
+                    <h6>This project explores the workflow of redesigning a simple website.
+                        Identifying flaw, hardening skills, analyzing accessibility flaws, and
+                        building a responsive website with prototypes are essential to the process
+                        behind UI/UX design. 
+                    </h6>
+                </div>
+            </section>
+
+            <section class = "glass" id = glass2>
+
+                <div data-aos = "fade-up" data-aos-duration = "1000">
+                <div class = "headlines">
+                    <h2>Part 1: Identifying Usability Problems</h2>
+                </div>
+
+                <div class = headText style = "margin-top: 1rem;">
+                    <a>
+                        This part selects the main website of the project. Ideally, it's one that's 
+                        public but not made by a large corportation (eg. Google, Facebook). For this project,
+                        8 Degrees LLC company's website was chosen. 8 Degrees is most widely known for their 
+                        When2Meet software which is used by a large number of people and organizations.
+                    <a>
+                </div>
+
+                <div id = "preplistBox">
+                    
+
+                        <h4>8 Degrees Overview</h4>
+
+                        <br>
+                        <br>
+
+
+                        <div style = "width: 50%;">
+
+                            <p>
+                                I chose this website because When2Meet is a staple for a lot of organizations and its company website doesn’t look polished or taken care of. If I had to guess, I would say this company is no longer active as of 2006.
+    
+                            </p>
+
+                            <a href = "https://www.8degreesllc.com/#SchroddiePhotography" target="_blank"> 8 Degrees Website</a>
+
+                        </div>
+
+                        <br>
+
+
+
+                        <div>
+                            <img src = "8degrees.png" >
+                        </div>
+
+                        <br>
+
+                        <h4>Identifying Problems</h4>
+                        
+
+                        <ul class = "list">
+                            <li>
+                                <a>Confusing interface, buttons and links blend in too well
+                                </a>
+                            </li>
+                            <li>
+                                <a>Content is not coherent</a>
+                            </li>
+                            <li>
+                                <a>Content isn’t clear - what exactly does the company do? Is it still active?
+                                </a>
+                            </li>
+                            <li>
+                                <a>Links are redundant - some links link to pages with one or two lines of text
+                                </a>
+                            </li>
+
+                            <li>
+                                <a>Some images don’t have alt text</a>
+                            </li>
+
+                            <li>
+                                <a>Some divs are not labeled correctly
+                                </a>
+                            </li>
+
+                            <li>
+                                <a>Not adaptive to different sized window
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <h3>Accessibility</h3>
+                            
+
+                            <div style = "margin-top: 1rem; width: 60rem;">
+                                <a>
+                                    Two errors and 15 alerts were detected with the website. Most of them applied to missing metadata such as not specifying a language or including tags for sections for different sections (text or images a direct child of <html> instead of a <a>, <p>..etc). I agree with these detections and would even expand it to say that the different headings are not specifically defined properly. 
+
+                                </a>
+                            </div>
+                           
+
+
+                    
+
+                </div>
+
+                </div>
+            </section>
+
+
+            <section class = "glass" id = "glass3">
+
+                <div data-aos = "fade-up" data-aos-duration = "1000">
+
+                <div class = "headlines" style = "margin-bottom: 3rem;">
+                    <h2>Part 2 Visual Redesign</h2>
+                </div>
+
+
+                <div style = "margin-left: 2rem;">
+                    <h4>Low-Fidelity</h4>
+                </div>
+
+                
+
+                <div class = "headText">
+                    <a>A low-fidelity wireframe is a great way of creating a simple outline
+                        for a design. It focuses on addressing main concerns issues with
+                        previous designs without having to focus on the finer details.
+                    </a>
+                </div>
+
+                <br>
+
+                <div style = "height: 40rem; width: 100%; ">
+                    <img  style = "width: 29.9rem; height: auto;" src = "web.png">
+                    <img style = "width: 29.9rem; height: auto;" src  = "tablet.png">
+                    <img style = "width: 29.9rem; height: auto;" src = "mobile.png">
+                </div>
+
+                
+
+                <div style = "margin-left: 2rem;">
+                    <h3>Design Style</h3>
+                </div>
+
+                <br>
+
+                <div class = "headText">
+                    <a>
+                        A style guide with clear documentation makes design work more consistent
+                        and makes working with other developers easier. This part of the project
+                        focuses on the componetns, their aesthetics, and interations.
+                    </a>
+                </div>
+
+                <br>
+                
+                <div class = "headText"style = "margin-left: 10vh; width: 96%; height: 26rem;">
+                    <img stlye = "height: auto; width: 50%;"alt = "style guide frame" src = "style.png">
+                    
+                </div>
+
+                <div class = "headText">
+                    <a> With this design, I decided to keep with the simple design the website had: grayscale colors, simple box
+                        designs, and a simple font. Most of my focus was on the layout. I also chose to honor the pink hue featured
+                        in the head lines of the original website.
+                     
+                    </a>
+                </div>
+
+                <br>
+
+
+                <div style = "margin-left: 2rem;">
+                    <h3>High Fidelity</h3>
+                </div>
+
+                <br>
+
+                <div class = "headText">
+                    <a>Using Figma, the website UI was designed based on the low-fidelity wireframes. 
+                        Goals for this UI included simplicity, accessibility, and adaptability to different
+                        screen sizes. Annotations for "developers" for HTML containers and CSS attributes were
+                        also included.
+                    </a>
+        
+                </div>
+
+
+                <br>
+
+                <div style = "width: 96%; height: auto;">
+                    <img style = "width : 50rem; height: auto;" alt = "high fidelity web" src = "highweb.png">
+                    <img style = "width : 35rem; height: auto;"alt = "high fidelity mobile" src = "highmobile.png">
+                    <img style = "width : 40rem; height: auto;" alt = "high fidelity tablet" src = "hightablet.png">
+                   
+            
+                </div>
+
+                
+               
+
+                </div>
+
+            </section>
+
+            <section class = "glass" id = "glass4">
+
+                <div data-aos = "fade-up" data-aos-duration = "1000">
+                    <div class = "headlines" style = "margin-left: 2rem;">
+                        <h2>Part 3: Reponsive Redesign</h2>
+                    </div>
+                    
+                    <div class = "headText" style = "margin-top: 1rem; margin-left: 3rem;" >
+                        <a>
+                            The final rendition of the website redesign based on high-fidelity: <a href  = "https://perraperra999.github.io/UIUXRedesign/" target="_blank"> Click Here </a>
+                        </a>
+                    </div>
+
+                   <div>
+
+                    <img style = "height: auto; width: 70rem" alt = "final website" src = "final.png">
+                        
+                   </div>
+
+                </div>
+            </section>
+
+
+            
+
+            <a id = 'scrollButton' href = "#menuBar"></a>
+        </main>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+    </body>
+</html>

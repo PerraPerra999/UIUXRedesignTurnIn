@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --background-color: #9ed5ef;
+    --underline-color: #214f56;
+    --menubar-color: #f4f3ee;
+    --glass-color: #f9f4f433;
+
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+
+body{
+    min-height: 100%;
+}
+
+a{
+    font-family: 'DM Sans';
+}
+
+main{
+    width: 100%;
+    min-height: 100%;
+    background: var(--background-color);
+    align-items: center;
+    align-content: center;
+    
+}
+
+.buttons{
+    
+    padding-bottom: 0vh; /* defines the space between text and underline */
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-family: "Free Mono", monospace;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.buttons::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2.5px;
+    position: relative;
+    top: 2.8vh;
+    background-color: var(--underline-color);
+    transition: 0.25s ease-out;
+}
+
+.buttons:hover::before {
+    width: 100%;
+}
+
+#menuBar {
+    list-style-type: none;
+    padding-bottom: 0.5%;
+    overflow: hidden;
+    background-color: var(--menubar-color);
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+
+
+
+.glass{
+    
+    width: 95%;
+    background: linear-gradient(to right bottom,var(--glass-color),var(--glass-color));
+    border-radius: 2rem;
+    margin-left: 2.6%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    left: 3%
+}
+
+#glass0{
+    height: 0.5rem;
+    background:var(--glass-color);
+}
+
+#glass1{
+    height: 4rem;
+    top: 2.5vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#glass2{
+    
+}
+
+#glass3{
+    
+}
+
+#glass4{
+    
+}
+
+#glass5{
+    
+}
+
+.headlines{
+    font-family: "Free Mono", monospace;
+    font-size: 0.75rem;
+    width: 94%;
+    height: 10%; 
+    margin-left: 1rem;
+    padding-top: 2rem;
+}
+
+#overviewtextBox{
+    max-height: 10rem;
+    max-width: 42rem;
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+    margin-left: 2rem;
+       
+    text-align: center;   
+}
+
+.preparationtextBox{
+    max-height: 3rem;
+    max-width: 30rem;
+    font-size: 0.8rem;
+    padding-top: 0rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+       
+  
+}
+
+#preplistBox{
+   
+    padding-left: 2.7rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+ol{
+    font-size: 0.7rem;
+    
+   
+}
+ol li a{
+    font-size: 0.6rem;
+}
+
+img{
+    height: 25rem;
+    border-radius: 1rem;
+    border-style:solid;
+}
+
+#prepText{
+    
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    margin-left: 1.2rem;
+    width: 40rem;
+    margin-bottom: 1rem;
+}
+
+.list{
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.headText{
+    font-size: 1rem;
+    
+    width: 35rem;
+    margin-left: 3rem;
+}
+
+
+#scrollButton{
+    background: url(images/scrollButton.png) no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    position: fixed;
+    border: none;
+    width: 5vh;
+    height: 5vh;
+    left: 175vh;
+    top: 90vh;
+}
+
+
+
+
+
+
+
+
+  
